@@ -1,0 +1,652 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 289721162,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.init(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Logging in Rediff.com",
+        "description": "",
+        "id": "title-of-your-feature;logging-in-rediff.com",
+        "after": [
+          {
+            "result": {
+              "duration": 944978937,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3219145158,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2732619892,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I go to the loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13703213,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Title should be loginpage_title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginpage_title",
+                  "offset": 16
+                }
+              ],
+              "location": "ValidationSteps.validateTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54040159,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "username_xpath element should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_xpath",
+                  "offset": 0
+                }
+              ],
+              "location": "ValidationSteps.verifyElementPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267284108,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Type username_xpath as ashishthakur1983",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_xpath",
+                  "offset": 5
+                },
+                {
+                  "val": "ashishthakur1983",
+                  "offset": 23
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144024744,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on username_submit_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username_submit_id",
+                  "offset": 9
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277516398,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Type password_css as pass@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_css",
+                  "offset": 5
+                },
+                {
+                  "val": "pass@1234",
+                  "offset": 21
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112242438,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on password_submit_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password_submit_xpath",
+                  "offset": 9
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 858024,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Login should be success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 16
+                }
+              ],
+              "location": "ValidationSteps.validateLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@RediffLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3775872243,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5161626398,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I go to the loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33570459,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Title should be loginpage_title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginpage_title",
+                  "offset": 16
+                }
+              ],
+              "location": "ValidationSteps.validateTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21216455887,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ashishthakur1983",
+                  "pass@1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2896204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.init(Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Creating a Portfolio",
+        "description": "",
+        "id": "title-of-your-feature;creating-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 197735516,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 247242355,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click createPortFolio_id and wait for portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createPortFolio_id",
+                  "offset": 8
+                },
+                {
+                  "val": "portfolioName_id",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericSteps.clickAndWait(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52002831,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I clear portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName_id",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.clear(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162897434,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Type portfolioName_id as Port12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName_id",
+                  "offset": 5
+                },
+                {
+                  "val": "Port12345",
+                  "offset": 25
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111717640,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click on portFolioSubmit_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portFolioSubmit_id",
+                  "offset": 9
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Portfolio"
+          },
+          {
+            "name": "@CreatePortFolio"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2937587386,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9303096268,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I go to the loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 12
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17281655,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Title should be loginpage_title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginpage_title",
+                  "offset": 16
+                }
+              ],
+              "location": "ValidationSteps.validateTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3094656571,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ashishthakur1983",
+                  "pass@1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6814700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.init(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Deleting a Portfolio",
+        "description": "",
+        "id": "title-of-your-feature;deleting-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 110915082,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29422419,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "GenericSteps.waitForPageToLoad()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Port12345\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027DESKTOP-NM05SVP\u0027, ip: \u0027192.168.1.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat com.qtpselenium.cucumber.connector.WebConnector.select(WebConnector.java:68)\r\n\tat com.qtpselenium.cucumber.steps.GenericSteps.select(GenericSteps.java:78)\r\n\tat ✽.Select Port12345 from portfolioSelection_id(src/test/resources/features/Portfolio.feature:42)\r\n",
+              "duration": 10413574445,
+              "status": "failed"
+            },
+            "line": 42,
+            "name": "Select Port12345 from portfolioSelection_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Port12345",
+                  "offset": 7
+                },
+                {
+                  "val": "portfolioSelection_id",
+                  "offset": 22
+                }
+              ],
+              "location": "GenericSteps.select(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "GenericSteps.waitForPageToLoad()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "Click on deletePortfolio_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deletePortfolio_id",
+                  "offset": 9
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I accept alert",
+            "match": {
+              "location": "GenericSteps.iAcceptAlert()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Portfolio"
+          },
+          {
+            "name": "@DeletePortFolio"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Portfolio.feature",
+    "tags": [
+      {
+        "name": "@Portfolio",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
