@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.qtpselenium.cucumber.runner.MyRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 68.278 s - in com.qtpselenium.cucumber.runner.MyRunnerTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 126.97 s - in com.qtpselenium.cucumber.runner.MyRunnerTest

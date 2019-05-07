@@ -328,8 +328,7 @@ formatter.match({
   "location": "GenericSteps.select(String,String)"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Port12345\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027DESKTOP-NM05SVP\u0027, ip: \u0027192.168.1.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat com.qtpselenium.cucumber.connector.WebConnector.select(WebConnector.java:68)\r\n\tat com.qtpselenium.cucumber.steps.GenericSteps.select(GenericSteps.java:78)\r\n\tat ✽.Select Port12345 from portfolioSelection_id(src/test/resources/features/Portfolio.feature:42)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "I wait for page to load",
@@ -339,7 +338,7 @@ formatter.match({
   "location": "GenericSteps.waitForPageToLoad()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on deletePortfolio_id",
@@ -349,7 +348,7 @@ formatter.match({
   "location": "GenericSteps.click(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I accept alert",
@@ -359,7 +358,7 @@ formatter.match({
   "location": "GenericSteps.iAcceptAlert()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
