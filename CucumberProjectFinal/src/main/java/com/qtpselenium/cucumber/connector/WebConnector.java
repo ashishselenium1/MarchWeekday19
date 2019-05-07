@@ -36,7 +36,7 @@ public class WebConnector {
 	ExtentTest scenario;
 	
 	public WebConnector() {
-		System.out.println("WebConnector Initialized");
+		System.out.println("WebConnector Initialized . Starting execution");
 		try {
 			 prop = new Properties();
 			FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"//src//test//resources//project.properties");
